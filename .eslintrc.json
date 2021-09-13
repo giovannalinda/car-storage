@@ -6,8 +6,10 @@
     "extends": [
       "plugin:react/recommended",
       "plugin:react-hooks/recommended",
-      "standard"
+      "standard",
+      "prettier"
     ],
+    "parser": "babel-eslint",
     "parserOptions": {
       "ecmaFeatures": {
         "jsx": true
@@ -33,4 +35,3 @@
       "react-hooks/exhaustive-deps": "warn"
     }
   }
-  
